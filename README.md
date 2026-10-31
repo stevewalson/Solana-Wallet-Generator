@@ -33,3 +33,6 @@ Ensure you have the following installed on your local machine:
 3. **Start the local development server:**
    ```bash
    npm run dev
+
+4. **Access the application:**
+Open the local development URL provided in your terminal (typically http://localhost:5173).
