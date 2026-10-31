@@ -23,7 +23,7 @@ Ensure you have the following installed on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/stevewalson/Solana-Wallet-Generator.git
+   git clone https://github.com/stevewalson/Solana-Wallet-Generator.git # or download the ZIP file directly
    cd Solana-Wallet-Generator
 
 2. **Install dependencies:**
