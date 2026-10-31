@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solana Keygen</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="generateBtn">Generate Wallet</button>
+
+      <div id="output" class="hidden">
+        <div class="field-group">
+          <label>24-Word Seed Phrase</label>
+          <div id="seedPhrase" class="box text-grid"></div>
+        </div>
+
+        <div class="field-group">
+          <label>Public Key (Address)</label>
+          <div id="publicKey" class="box text-mono"></div>
+        </div>
+
+        <div class="field-group">
+          <label>Secret Key (Array)</label>
+          <div id="secretKey" class="box text-mono text-dim"></div>
+        </div>
+
+        <button id="downloadBtn" class="btn-secondary">Save to File (.txt)</button>
+      </div>
+      <p class="dev_txt">Developed by <a href="https://walson.dev" >Steve Walson</a></p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
