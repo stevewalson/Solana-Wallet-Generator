@@ -26,7 +26,27 @@
           <div id="secretKey" class="box text-mono text-dim"></div>
         </div>
 
-        <button id="downloadBtn" class="btn-secondary">Save to File (.txt)</button>
+        <div class="download-section">
+          <div class="field-group">
+            <div class="label-row">
+              <label>Zip Password (AES-256 Encrypted)</label>
+              <button id="generatePwdBtn" class="btn-text" type="button">Generate Strong Password</button>
+            </div>
+            <div class="input-wrapper">
+              <input type="password" id="zipPassword" placeholder="Enter a strong password" class="box text-input" />
+              <button id="toggleVisibilityBtn" class="btn-text toggle-btn" type="button">Show</button>
+            </div>
+            
+            <div class="criteria-list">
+              <span id="critLength" class="crit-item">✓ At least 12 characters</span>
+              <span id="critUpper" class="crit-item">✓ Uppercase letter (A-Z)</span>
+              <span id="critLower" class="crit-item">✓ Lowercase letter (a-z)</span>
+              <span id="critNumber" class="crit-item">✓ Number (0-9)</span>
+              <span id="critSpecial" class="crit-item">✓ Special character (!@#$...)</span>
+            </div>
+          </div>
+          <button id="downloadBtn" class="btn-secondary" disabled>Download AES-256 Encrypted Zip (.zip)</button>
+        </div>
       </div>
       <p class="dev_txt">Developed by <a href="https://walson.dev" >Steve Walson</a></p>
     </div>
