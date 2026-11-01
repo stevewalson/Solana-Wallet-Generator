@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/solana-colored.svg" alt="Solana" title="Solana" width="36" height="36" /> Solana Wallet Generator
 
-A lightweight, secure, offline self-hosted web utility built with **Vite** and **Node.js** to generate standalone 24-word BIP39 Solana cryptocurrency wallets and export recovery credentials a **password-protected ZIP archive**.
+A lightweight, secure, offline self-hosted web app built with **Vite** and **Node.js** to generate standalone 24-word BIP39 Solana cryptocurrency wallets and export recovery credentials a **password-protected ZIP archive**.
 
 ## Technical Overview
 
